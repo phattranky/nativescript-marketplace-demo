@@ -20,6 +20,9 @@ if (global.TNS_WEBPACK) {
     global.registerModule("examples/listview/selection/selection-view-model", () => require("./examples/listview/selection/selection-view-model"));
     global.registerModule("examples/user-profile/user-profile-example", () => require("./examples/user-profile/user-profile-example"));
     global.registerModule("views/what-is-new", () => require("./views/what-is-new"));
+
+
+    global.registerModule("nativescript-cardview", () => require("nativescript-cardview"))
     global.registerModule("views/about/about", () => require("./views/about/about"));
     global.registerModule("views/code-page", () => require("./views/code-page"));
     global.registerModule("views/example-info-page", () => require("./views/example-info-page"));
@@ -69,4 +72,5 @@ if (global.TNS_WEBPACK) {
     global.registerModule("nativescript-telerik-ui-pro/dataform", () => require("nativescript-telerik-ui-pro/dataform"))
 
     global.registerModule("nativescript-fresco/nativescript-fresco", () => require("nativescript-fresco/nativescript-fresco"))
+
 }

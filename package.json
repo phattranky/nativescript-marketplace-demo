@@ -2,7 +2,7 @@
   "nativescript": {
     "id": "org.nativescript.examples",
     "tns-ios": {
-      "version": "next"
+      "version": "3.2.0-2017-7-28-1"
     },
     "tns-android": {
       "version": "next"
@@ -11,6 +11,7 @@
   "dependencies": {
     "acra-telerik-analytics": "~0.0.3",
     "highlight.js": "~8.7.0",
+    "nativescript-cardview": "^2.0.2",
     "nativescript-fresco": "~3.0.2",
     "nativescript-iqkeyboardmanager": "~1.0.1",
     "nativescript-plugin-firebase": "^3.12.0",

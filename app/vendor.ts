@@ -9,3 +9,5 @@ require("nativescript-telerik-ui-pro/dataform");
 require("nativescript-telerik-ui-pro/listview");
 require("nativescript-telerik-ui-pro/sidedrawer");
 
+require("nativescript-cardview");
+
